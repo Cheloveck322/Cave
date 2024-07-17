@@ -13,7 +13,7 @@ class Point3d
         double m_z{};
 
     public:
-        Point3d::Point3d(double x, double y, double z)
+        Point3d(double x, double y, double z)
 	: m_x{x}, m_y{y}, m_z{z}
 {}
 
